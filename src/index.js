@@ -107,7 +107,7 @@ const AnalyticalTool = () => {
           <h5>
             Assuming you own the house, what is the rate of return if you rent?
           </h5>
-          <p>Loan Annual Net Return:</p>
+          <p>Rent Annual Return:</p>
           <p>{calcRentReturn(homePrice, monthlyRent, taxRate, monthlyHOA)}</p>
         </StyledCol>
       </StyledRow>
@@ -141,7 +141,7 @@ const AnalyticalTool = () => {
             Assuming you purchase a house by entering a loan, what is loan rate
             of return you paid in terms of home price?
           </h5>
-          <p>Rent Annual Return:</p>
+          <p>Loan Annual Net Return:</p>
           <p>{calcLoanReturn(homePrice, loanAmount, loanRate)}</p>
         </StyledCol>
       </StyledRow>
