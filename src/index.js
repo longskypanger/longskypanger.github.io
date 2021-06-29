@@ -163,7 +163,7 @@ const AnalyticalTool = () => {
         <StyledCol sm={8}>
           <h5>
             Financially, how much you earn if you buy a house with a loan and
-            rent it out considering home price appreciation based on the
+            rent it out considering home price appreciation given the
             downpayment you paid?
           </h5>
           <p>Net Annual Return:</p>
